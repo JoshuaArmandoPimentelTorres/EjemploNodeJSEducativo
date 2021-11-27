@@ -10,3 +10,5 @@ api.post('/login', usuarioControl.accesoUsuario);
 api.put('/actualizar-usuario/:id', md_auth.validarAcceso, usuarioControl.actualizarUsuario);
 
 module.exports = api;
+
+//nos podria enseñar el metodo DELETE para nuestra API
